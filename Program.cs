@@ -9,7 +9,7 @@ int secondDigit = number % 10; // 78%10 = 8
 
 // Console.WriteLine($"1 цифра: {firstDigit}, 2 цифра: {secondDigit}");
 
-// int max = firstDigit; // Пусть максимум - 1 цифра числа
+int max = firstDigit; // Пусть максимум - 1 цифра числа
 if (secondDigit > max) // 8 > max(7)
 {
     max = secondDigit; // max=8
