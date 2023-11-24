@@ -36,18 +36,18 @@
 //46 -> нет
 // 161 -> да
 
-Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-// "&&" - "И" , (14 % 2 == 0) & (14 % 7 == 0)
-// апельсины и яблоки (обязательно выполнить оба условия)
-// "||" - "Или" (Хотя бы одно условие - истина)
-if (number % 7 == 0 && number % 23 == 0)
-{
-    Console.WriteLine($"Да, число {number} кратно 7 и 23");
-}
-else
-{
-    Console.WriteLine("Не кратно");
-    Console.WriteLine($"Остаток от деления {number} на 7 = {number % 7}");
-    Console.WriteLine($"Остаток от деления {number} на 23 = {number % 23}");
-}
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// // "&&" - "И" , (14 % 2 == 0) & (14 % 7 == 0)
+// // апельсины и яблоки (обязательно выполнить оба условия)
+// // "||" - "Или" (Хотя бы одно условие - истина)
+// if (number % 7 == 0 && number % 23 == 0)
+// {
+//     Console.WriteLine($"Да, число {number} кратно 7 и 23");
+// }
+// else
+// {
+//     Console.WriteLine("Не кратно");
+//     Console.WriteLine($"Остаток от деления {number} на 7 = {number % 7}");
+//     Console.WriteLine($"Остаток от деления {number} на 23 = {number % 23}");
+// }
